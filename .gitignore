@@ -1,0 +1,6 @@
+.venv/
+sts2.db
+data/private_coop/
+tempCodeRunnerFile.py
+__pycache__/
+.ipynb_checkpoints/
