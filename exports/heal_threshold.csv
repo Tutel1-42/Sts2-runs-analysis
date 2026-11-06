@@ -1,0 +1,23 @@
+hp_pct_floor,before_boss,visits,heal_share
+0,Before boss,39,0.92
+10,Before boss,59,0.93
+20,Before boss,66,0.79
+30,Before boss,100,0.67
+40,Before boss,83,0.35
+50,Before boss,94,0.29
+60,Before boss,55,0.16
+70,Before boss,44,0.02
+80,Before boss,28,0.04
+90,Before boss,14,0.0
+100,Before boss,22,0.0
+0,Other,39,0.87
+10,Other,79,0.78
+20,Other,113,0.61
+30,Other,161,0.36
+40,Other,204,0.18
+50,Other,233,0.05
+60,Other,220,0.01
+70,Other,155,0.01
+80,Other,100,0.01
+90,Other,63,0.0
+100,Other,36,0.0

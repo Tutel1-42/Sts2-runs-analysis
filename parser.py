@@ -93,7 +93,6 @@ for f in run_dir.glob("*.run"):
                     "upgraded": card.get("current_upgrade_level", 0) > 0,
                     "was_picked": choice["was_picked"],
                     "source": source,
-                    "screen_id": i // 3,
                 })
 
             if rt == "shop":
@@ -105,7 +104,6 @@ for f in run_dir.glob("*.run"):
                         "upgraded": card.get("current_upgrade_level", 0) > 0,
                         "was_picked": True,
                         "source": "shop",
-                        "screen_id": None,   # shop isn't a reward screen
                     })
                     
                 rows_shop.append({
