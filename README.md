@@ -1,6 +1,6 @@
 # Project Background
 
-Slay the Spire 2 ia my favorite game that i play a lot in my free time and i notice the game saves a JSON file for every run. I want to see and analyze these run so this is the reason why this project exist. This project turns 340 of my solo runs (March to October 2026, 13 game builds) into a SQLite database and uses SQL, pandas and Power BI to answer questions about how I play: where I die, what I pick, when I heal and how I spend gold.
+Slay the Spire 2 is my favorite game that i play a lot in my free time and i notice the game saves a JSON file for every run. I want to see and analyze these run so this is the reason why this project exist. This project turns 340 of my solo runs (March to October 2026, 13 game builds) into a SQLite database and uses SQL, pandas and Power BI to answer questions about how I play: where I die, what I pick, when I heal and how I spend gold.
 
 The aim was one project I could explain end to end: the data problems I hit, the choices I made, and how I checked the results.
 
@@ -44,8 +44,6 @@ The save files weren't designed for analysis. These are the ones that changed re
 - **Reward screens aren't always 3 cards.** I first assumed every 6-card reward was two 3-card screens. Testing that across all 199 floors with extra cards found five different causes: two relics that add a reward screen, one that adds a 4th card, one that rerolls, and an enemy that returns a stolen card. I dropped the "screen" column instead of keeping one that was wrong.
 - **Health percentages break in some runs.** One event sets max HP to 1, which makes every rest site look like "healing at full HP". Those visits are excluded, as are visits where a relic allowed healing and upgrading at the same time.
 
-The full list of 18 quirks, the decisions and the validation checks are in my project notes.
-
 ## Choices worth explaining
 
 - **Pickrate is picked ÷ offered**, not how often a card appears in winning decks. Winning runs are longer and collect more of everything.
@@ -75,7 +73,7 @@ pip install -r requirements.txt
 python parser.py
 ```
 
-Then open `analysis.ipynb` with the `.venv` kernel and run all cells. The dashboard file is `dashboard/sts2_dashboard.pbix` (Power BI Desktop).
+Then open `analysis.ipynb` with the `.venv` kernel and run all cells. The dashboard file is `dashboard/sts2_report.pbix` (Power BI Desktop).
 
 ## Related work
 
