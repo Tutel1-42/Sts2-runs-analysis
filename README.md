@@ -75,7 +75,7 @@ pip install -r requirements.txt
 python parser.py
 ```
 
-Then open `analysis.ipynb` with the `.venv` kernel and run all cells. The dashboard file is `dashboard/sts2_dashboard.pbix` (Power BI Desktop).
+Then open `analysis.ipynb` with the `.venv` kernel and run all cells. The dashboard file is `dashboard/sts2_report.pbix` (Power BI Desktop).
 
 ## Related work
 
