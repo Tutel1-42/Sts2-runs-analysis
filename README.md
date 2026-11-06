@@ -1,6 +1,6 @@
 # Project Background
 
-Slay the Spire 2 ia my favorite game that i play a lot in my free time and i notice the game saves a JSON file for every run. I want to see and analyze these run so this is the reason why this project exist. This project turns 340 of my solo runs (March to October 2026, 13 game builds) into a SQLite database and uses SQL, pandas and Power BI to answer questions about how I play: where I die, what I pick, when I heal and how I spend gold.
+Slay the Spire 2 is my favorite game that i play a lot in my free time and i notice the game saves a JSON file for every run. I want to see and analyze these run so this is the reason why this project exist. This project turns 340 of my solo runs (March to October 2026, 13 game builds) into a SQLite database and uses SQL, pandas and Power BI to answer questions about how I play: where I die, what I pick, when I heal and how I spend gold.
 
 The aim was one project I could explain end to end: the data problems I hit, the choices I made, and how I checked the results.
 
